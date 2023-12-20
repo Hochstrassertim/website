@@ -1,20 +1,70 @@
-.support_form {
+body {
+    background-color: #000;
+}
+
+.support_form_div {
     width: 60%;
-    height: 500px;
+    height: 80%;
+    margin-top: 10%;
     margin-left: 20%;
     align-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: #000;
+}
+
+.first_name, .last_name, .email, .phone {
+    width: 100%;
 }
 
 .first_name_label, .last_name_label, .email_label, .category_label, .phone_label, .message_label {
     font-family: Calibri;
     margin-top: 50px;
+    height: 20px;
+    width: 90%;
+    margin-left: 5%;
+    color: #ddd;
 }
 
-.first_name_input, .last_name_input, .email_input, .phone_input, .message_input {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    margin-top: 50px;
+.first_name_input, .last_name_input, .email_input, .phone_input, .category_select {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    round-clip: 5;
+    width: 90%;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: #555;
+    color: #ddd;
+    resize: none;
+}
+
+.message_input {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    round-clip: 5;
+    width: 90%;
+    height: 145px;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: #555;
+    color: #ddd;
+    resize: none;
+}
+
+.submit_button {
+    height: 50px;
+    width: 125px;
+    margin-top: 5px;
+    margin-left: 5%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #ddd;
+    background-color: #2a8fc9;
 }
