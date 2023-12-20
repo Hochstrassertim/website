@@ -1,0 +1,4 @@
+.first_name_label, .last_name_label, .email_label, .phone_label, .message_label {
+    font-family: Calibri;
+    margin-bottom: 50px;
+}
