@@ -1,4 +1,20 @@
-.first_name_label, .last_name_label, .email_label, .phone_label, .message_label {
+.support_form {
+    width: 60%;
+    height: 500px;
+    margin-left: 20%;
+    align-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.first_name_label, .last_name_label, .email_label, .category_label, .phone_label, .message_label {
     font-family: Calibri;
-    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.first_name_input, .last_name_input, .email_input, .phone_input, .message_input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 50px;
 }

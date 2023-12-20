@@ -14,19 +14,42 @@
     </script>
 </head>
 <body>
-<form action="#" class="support_form" id="support_form" onsubmit="handleFormSubmission(); return false;">
-    <label class="first_name_label" for="first_name_input">First name</label><br>
-    <input class="first_name_input" id="first_name_input" type="text" required><br>
-    <label class="last_name_label" for="last_name_input">Last name</label><br>
-    <input class="last_name_input" id="last_name_input" type="text" required><br>
-    <label class="email_label" for="email_input">Email</label><br>
-    <input class="email_input" id="email_input" type="email" required><br>
-    <label class="phone_label" for="phone_input">Phone number</label><br>
-    <input class="phone_input" id="phone_input" type="text" required><br>
-    <label class="message_label" for="message_input">Phone number</label><br>
-    <textarea class="message_input" id="message_input" required></textarea><br>
-
-    <button class="submit_button" id="submit_button" type="submit">Submit</button>
+<div class="support_form" id="support_form">
+    <form action="#" class="support_form" id="support_form" onsubmit="handleFormSubmission(); return false;">
+        <div class="first_name" id="first_name">
+            <label class="first_name_label" for="first_name_input">First name</label><br>
+            <input class="first_name_input" id="first_name_input" type="text" required><br>
+        </div>
+        <div class="last_name" id="last_name">
+            <label class="last_name_label" for="last_name_input">Last name</label><br>
+            <input class="last_name_input" id="last_name_input" type="text" required><br>
+        </div>
+        <div class="first_name" id="email">
+            <label class="email_label" for="email_input">Email</label><br>
+            <input class="email_input" id="email_input" type="email" required><br>
+        </div>
+        <div class="last_name" id="phone">
+            <label class="phone_label" for="phone_input">Phone number</label><br>
+            <input class="phone_input" id="phone_input" type="text" required><br>
+        </div>
+        <div class="category" id="category">
+            <label class="category_label" for="phone_input">Category</label><br>
+            <select class="category_select" id="category_select">
+                <option>Questions</option>
+                <option>Feedback</option>
+                <option>Problems</option>
+                <option>Contribution</option>
+                <option>Others (please specify further)</option>
+            </select> <br>
+        </div>
+        <div class="message" id="message">
+            <label class="message_label" for="message_input">Phone number</label><br>
+            <textarea class="message_input" id="message_input" required></textarea><br>
+        </div>
+        <div class="submit" id="submit">
+            <button class="submit_button" id="submit_button" type="submit">Submit</button>
+        </div>
+</div>
 </form>
 </body>
 </html>
