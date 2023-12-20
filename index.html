@@ -9,7 +9,36 @@
     <link rel="stylesheet" href="style.css">
     <script>
         function handleFormSubmission() {
-            console.log("Form submitted");
+            // Collect form data
+            var formData = {
+                first_name_input: document.getElementById("first_name_input").value,
+                last_name_input: document.getElementById("last_name_input").value,
+                email_input: document.getElementById("email_input").value,
+                phone_input: document.getElementById("phone_input").value,
+                category_select: document.getElementById("category_select").value,
+                message_input: document.getElementById("message_input").value
+            };
+
+            // Make an AJAX request
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "submit_form.php", true);
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+            // Convert form data to URL-encoded format
+            var encodedData = Object.keys(formData).map(function(key) {
+                return encodeURIComponent(key) + "=" + encodeURIComponent(formData[key]);
+            }).join("&");
+
+            // Handle the response from the PHP file
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    console.log(xhr.responseText);
+                    // You can update the UI or perform additional actions based on the response
+                }
+            };
+
+            // Send the request
+            xhr.send(encodedData);
         }
     </script>
 </head>
