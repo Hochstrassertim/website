@@ -16,7 +16,7 @@ body {
     width: 100%;
 }
 
-.first_name_label, .last_name_label, .email_label, .category_label, .phone_label, .message_label {
+.first_name_label, .last_name_label, .email_label, .category_label, .phone_label, .message_label, .agree_label {
     font-family: Calibri;
     margin-top: 50px;
     height: 20px;
@@ -67,4 +67,12 @@ body {
     border-radius: 5px;
     color: #ddd;
     background-color: #2a8fc9;
+}
+
+.agree_checkbox {
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    margin-left: 5%;
 }
