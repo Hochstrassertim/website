@@ -9,11 +9,11 @@
 <header>
     <nav class="navbar" id="navbar">
         <div class="align_left" id="align_left">
-            <a href="index.html"><button class="left_button">Startseite</button></a>
-            <a href="index.html"><button class="left_button">Startseite</button></a>
-            <a href="index.html"><button class="left_button">Startseite</button></a>
-            <a href="index.html"><button class="left_button">Startseite</button></a>
-            <a href="index.html"><button class="left_button">Startseite</button></a>
+            <a href="../index.php"><button class="left_button">Startseite</button></a>
+            <a href="../index.php"><button class="left_button">Startseite</button></a>
+            <a href="../index.php"><button class="left_button">Startseite</button></a>
+            <a href="../index.php"><button class="left_button">Startseite</button></a>
+            <a href="../index.php"><button class="left_button">Startseite</button></a>
         </div>
         <div class="align_right" id="align_right">
             <select class="light_dark_mode" id="light_dark_mode" onchange="redirectToCorrectMode()">
