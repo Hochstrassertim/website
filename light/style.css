@@ -1,11 +1,11 @@
 body {
-    background-color: #666;
+    background-color: #fff;
     margin: 0;
 }
 
 .support_form {
     width: 100%;
-    background-color: black;
+    background-color: white;
 }
 
 .support_form_div {
@@ -15,7 +15,7 @@ body {
     margin-left: 20%;
     align-content: center;
     align-items: center;
-    background-color: #000;
+    background-color: white;
 }
 
 .first_name, .last_name, .email, .phone {
@@ -28,7 +28,7 @@ body {
     height: 20px;
     width: 90%;
     margin-left: 5%;
-    color: #ddd;
+    color: #333;
 }
 
 .first_name_input, .last_name_input, .email_input, .phone_input, .category_select {
@@ -42,8 +42,8 @@ body {
     margin-left: 5%;
     margin-bottom: 10px;
     font-size: 20px;
-    background-color: #555;
-    color: #ddd;
+    background-color: #aaa;
+    color: #222;
     resize: none;
 }
 
@@ -58,8 +58,8 @@ body {
     margin-left: 5%;
     margin-bottom: 10px;
     font-size: 20px;
-    background-color: #555;
-    color: #ddd;
+    background-color: #aaa;
+    color: #222;
     resize: none;
 }
 
@@ -84,7 +84,7 @@ body {
 }
 
 nav {
-    background-color: #333;
+    background-color: #ccc;
     height: 100px;
     width: 100%;
     padding-top: 5px;
