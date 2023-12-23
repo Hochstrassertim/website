@@ -9,7 +9,7 @@
 <header>
     <nav class="navbar" id="navbar">
         <div class="align_left" id="align_left">
-            <a href="../index.php"><button class="left_button">Startseite</button></a>
+            <button class="left_button" onclick="redirectToOtherPage('../index.php')">Startseite</button>
             <a href="../index.php"><button class="left_button">Startseite</button></a>
             <a href="../index.php"><button class="left_button">Startseite</button></a>
             <a href="../index.php"><button class="left_button">Startseite</button></a>
