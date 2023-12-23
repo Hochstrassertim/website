@@ -5,3 +5,11 @@ function redirectToCorrectMode() {
         window.location.href = "../index.php?mode=light";
     }
 }
+
+function redirectToOtherPage(page) {
+    if (document.getElementById("light_dark_mode").value == "light") {
+        window.location.href = page + "?mode=light";
+    } else {
+        window.location.href = page + "?mode=dark";
+    }
+}
