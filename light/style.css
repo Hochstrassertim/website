@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     background-color: #fff;
     margin: 0;
 }
@@ -11,7 +12,7 @@ body {
 .support_form_div {
     width: 60%;
     height: 80%;
-    margin-top: 10%;
+    margin-top: 50px;
     margin-left: 20%;
     align-content: center;
     align-items: center;
@@ -88,8 +89,6 @@ nav {
     height: 100px;
     width: 100%;
     padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .align_left {
@@ -100,11 +99,32 @@ nav {
 }
 
 .left_button {
+    float: left;
     height: 50px;
     margin-top: 15px;
+    margin-left: 10px;
     width: 15%;
     border: none;
     outline: none;
     background-color: #2a8fc9;
     color: #000;
+}
+
+.align_right {
+    float: right;
+    height: 80px;
+    margin-top: 10px;
+    width: 30%;
+}
+
+.light_dark_mode {
+    height: 50px;
+    width: 200px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background-color: #2a8fc9;
+    color: black;
 }
