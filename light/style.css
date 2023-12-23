@@ -1,0 +1,130 @@
+body {
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+}
+
+.support_form {
+    width: 100%;
+    background-color: white;
+}
+
+.support_form_div {
+    width: 60%;
+    height: 80%;
+    margin-top: 50px;
+    margin-left: 20%;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.first_name, .last_name, .email, .phone {
+    width: 100%;
+}
+
+.first_name_label, .last_name_label, .email_label, .category_label, .phone_label, .message_label, .agree_label {
+    font-family: Calibri;
+    margin-top: 50px;
+    height: 20px;
+    width: 90%;
+    margin-left: 5%;
+    color: #333;
+}
+
+.first_name_input, .last_name_input, .email_input, .phone_input, .category_select {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    round-clip: 5;
+    width: 90%;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: #aaa;
+    color: #222;
+    resize: none;
+}
+
+.message_input {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    round-clip: 5;
+    width: 90%;
+    height: 145px;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: #aaa;
+    color: #222;
+    resize: none;
+}
+
+.submit_button {
+    height: 50px;
+    width: 125px;
+    margin-top: 5px;
+    margin-left: 5%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #ddd;
+    background-color: #2a8fc9;
+}
+
+.agree_checkbox {
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    margin-left: 5%;
+}
+
+nav {
+    background-color: #ccc;
+    height: 100px;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.align_left {
+    float: left;
+    height: 80px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.left_button {
+    float: left;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 15%;
+    border: none;
+    outline: none;
+    background-color: #2a8fc9;
+    color: #000;
+}
+
+.align_right {
+    float: right;
+    height: 80px;
+    margin-top: 10px;
+    width: 30%;
+}
+
+.light_dark_mode {
+    height: 50px;
+    width: 200px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    background-color: #2a8fc9;
+    color: black;
+}
