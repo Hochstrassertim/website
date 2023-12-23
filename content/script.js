@@ -7,6 +7,7 @@ function redirectToCorrectMode() {
 }
 
 function redirectToOtherPage(page) {
+    console.log(window.location.href);
     if (document.getElementById("light_dark_mode").value == "light") {
         window.location.href = page + "?mode=light";
     } else {
